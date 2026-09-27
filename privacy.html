@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — EduVille</title>
+  <meta name="description" content="EduVille Privacy Policy — how we collect, use, and protect your data.">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <style>
+    .legal-page {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    .legal-header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: linear-gradient(135deg, var(--edu-blue-dark), var(--edu-blue));
+      border-radius: var(--r-lg);
+      border-bottom: 4px solid var(--gold);
+      margin-bottom: 2rem;
+      color: #fff;
+    }
+    .legal-header h1 {
+      color: #fff;
+      font-size: clamp(1.6rem, 4vw, 2rem);
+      margin-bottom: 0.5rem;
+    }
+    .legal-header p {
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 0.95rem;
+      margin: 0;
+    }
+    .legal-content {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-default);
+      border-radius: var(--r-md);
+      padding: 2rem;
+      line-height: 1.7;
+    }
+    .legal-content h2 {
+      color: var(--gold);
+      font-size: 1.15rem;
+      margin-top: 1.8rem;
+      margin-bottom: 0.7rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid var(--border-default);
+    }
+    .legal-content h2:first-child {
+      margin-top: 0;
+    }
+    .legal-content p {
+      margin-bottom: 1rem;
+      color: var(--text-primary);
+    }
+    .legal-content ul {
+      margin: 0.5rem 0 1rem 1.5rem;
+    }
+    .legal-content li {
+      margin-bottom: 0.4rem;
+      color: var(--text-primary);
+    }
+    .legal-content a {
+      color: var(--edu-blue-light);
+      text-decoration: underline;
+    }
+    .legal-meta {
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+      font-style: italic;
+      text-align: center;
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-default);
+    }
+    @media (max-width: 600px) {
+      .legal-content { padding: 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar" aria-label="Main">
+    <a href="index.html" class="logo">
+      <img src="assets/images/logo-full.png" alt="EduVille" class="logo-img" onerror="this.style.display='none'">
+      <span class="logo-text">Edu<span class="gold">Ville</span></span>
+    </a>
+    <label class="search-wrap">
+      <span class="sr-only">Search</span>
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="search" placeholder="Search...">
+    </label>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="login.html" class="btn-login">🔐 Login</a></li>
+    </ul>
+  </nav>
+
+  <div class="motto-bar">✨ Commit to Your Future ✨</div>
+
+  <div class="legal-page">
+
+    <header class="legal-header">
+      <h1>🔒 Privacy Policy</h1>
+      <p>How EduVille protects your privacy and handles your data</p>
+    </header>
+
+    <div class="legal-content">
+      <p><strong>Last updated:</strong> 27 September 2026</p>
+
+      <h2>1. Introduction</h2>
+      <p>EduVille is a free educational platform built for African students, with a focus on those studying ZIMSEC, Cambridge, and BEC curricula. We are committed to protecting your privacy and handling your data responsibly.</p>
+
+      <h2>2. Information We Collect</h2>
+      <p>When you create an EduVille account, we collect only the minimum information required:</p>
+      <ul>
+        <li><strong>Full name</strong> — to personalize your experience and display your name on the platform</li>
+        <li><strong>Email address</strong> — for account login and password recovery</li>
+        <li><strong>Role</strong> — whether you are a student or teacher (to show appropriate features)</li>
+        <li><strong>Learning progress</strong> — which lessons you have completed and bookmarked</li>
+        <li><strong>Chat history</strong> — conversations with our AI tutor, TymerCRE</li>
+      </ul>
+
+      <h2>3. Information We Do NOT Collect</h2>
+      <p>EduVille does not collect, request, or store:</p>
+      <ul>
+        <li>Your phone number</li>
+        <li>Your physical address</li>
+        <li>Your payment information (EduVille is completely free)</li>
+        <li>Your location or GPS data</li>
+        <li>Your personal contacts or photos</li>
+        <li>Any data from other apps on your device</li>
+      </ul>
+
+      <h2>4. How We Use Your Information</h2>
+      <p>Your information is used solely for:</p>
+      <ul>
+        <li>Creating and managing your EduVille account</li>
+        <li>Displaying your name where relevant (profile, comments)</li>
+        <li>Tracking your learning progress across courses</li>
+        <li>Saving your conversations with TymerCRE (our AI tutor)</li>
+        <li>Improving the platform based on usage patterns</li>
+      </ul>
+
+      <h2>5. Where Your Data Is Stored</h2>
+      <p>Your data is securely stored on <strong>Supabase</strong>, a trusted cloud platform used by thousands of organizations worldwide. Our database is hosted in <strong>Frankfurt, Germany</strong> (European Union), where strict data protection laws apply.</p>
+      <p>All data transmission is encrypted using <strong>HTTPS</strong> — the same technology banks use.</p>
+
+      <h2>6. Who Can See Your Data</h2>
+      <ul>
+        <li>Your <strong>email address</strong> is <strong>private</strong> — only you can see it</li>
+        <li>Your <strong>name</strong> appears on your profile and any content you create (videos, papers, comments)</li>
+        <li>Your <strong>learning progress</strong> is only visible to you</li>
+        <li>Your <strong>TymerCRE conversations</strong> are saved but not shared with other users</li>
+      </ul>
+      <p><strong>We never sell, rent, or share your personal data</strong> with third parties, advertisers, or government agencies.</p>
+
+      <h2>7. Your Rights</h2>
+      <p>You have the right to:</p>
+      <ul>
+        <li>Access your data at any time</li>
+        <li>Request correction of inaccurate data</li>
+        <li>Request deletion of your account and all associated data</li>
+        <li>Withdraw consent at any time</li>
+      </ul>
+      <p>To exercise these rights, contact us at <a href="mailto:ttaroiwa@gmail.com">ttaroiwa@gmail.com</a>.</p>
+
+      <h2>8. Children's Privacy</h2>
+      <p>EduVille is designed for secondary school students (typically ages 13 and above). We do not knowingly collect data from children under 13. If you are under 13, please ask a parent or guardian before creating an account.</p>
+
+      <h2>9. Cookies</h2>
+      <p>EduVille uses only essential cookies required for login and session management. We do not use tracking cookies or advertising cookies.</p>
+
+      <h2>10. Third-Party Services</h2>
+      <p>EduVille uses the following third-party services:</p>
+      <ul>
+        <li><strong>Supabase</strong> — for authentication and database (privacy policy: supabase.com/privacy)</li>
+        <li><strong>Google Gemini AI</strong> — for the TymerCRE AI tutor (privacy policy: ai.google.dev)</li>
+        <li><strong>GitHub Pages</strong> — for website hosting</li>
+        <li><strong>YouTube</strong> — for embedded video lessons (privacy policy: youtube.com/privacy)</li>
+      </ul>
+      <p>Each of these services has its own privacy policy, which we encourage you to review.</p>
+
+      <h2>11. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last updated" date. Continued use of EduVille after changes means you accept the new policy.</p>
+
+      <h2>12. Contact Us</h2>
+      <p>If you have questions about this Privacy Policy or how we handle your data, please contact us:</p>
+      <ul>
+        <li>📧 <a href="mailto:ttaroiwa@gmail.com">ttaroiwa@gmail.com</a></li>
+        <li>📧 <a href="mailto:edmoretaroiwa@gmail.com">edmoretaroiwa@gmail.com</a></li>
+        <li>📞 <a href="tel:+263788923710">+263 78 892 3710</a></li>
+        <li>📞 <a href="tel:+263787279982">+263 78 727 9982</a></li>
+      </ul>
+
+      <p class="legal-meta">
+        EduVille — Commit to Your Future<br>
+        Chitungwiza, Zimbabwe 🇿🇼
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div>
+        <h3>Edu<span class="gold">Ville</span></h3>
+        <p class="motto"><em>"Commit to Your Future"</em></p>
+        <p>Learn. Build. Share. Together.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="courses.html">Courses</a>
+        <a href="videos.html">Videos</a>
+        <a href="resources.html">Past Papers</a>
+        <a href="about.html">About Us</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="mailto:ttaroiwa@gmail.com">ttaroiwa@gmail.com</a>
+        <a href="mailto:edmoretaroiwa@gmail.com">edmoretaroiwa@gmail.com</a>
+        <a href="tel:+263788923710">+263 78 892 3710</a>
+        <a href="tel:+263787279982">+263 78 727 9982</a>
+      </div>
+    </div>
+    <p class="copyright">© 2026 EduVille. Commit to Your Future.</p>
+  </footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/auth.js"></script>
+</body>
+</html>
